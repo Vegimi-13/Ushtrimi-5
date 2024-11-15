@@ -25,6 +25,35 @@ let mesatarja = (numri1+numri2+numri3+numri4+numri5)/5;
 console.log("Mesatarja eshte " + mesatarja)
 
 
+// Detyra 4
+
+let qyteti1 = "Istog";
+let qyteti2 = "Peja";
+let qyteti3 = "Prishtina";
+
+let emriMeIgjate = qyteti1;
+
+
+if(qyteti2.length > emriMeIgjate.length){
+    emriMeIgjate = qyteti2;
+}
+
+if(qyteti3.length > emriMeIgjate.length){
+    emriMeIgjate = qyteti3;
+}
+
+console.log( "Emri me i gjate eshte: " + emriMeIgjate);
+
+
+
+
+//Detyra 5
+
+
+
+
+
+
 
 
 
