@@ -73,6 +73,32 @@ console.log("Perfomanca eshte: " + performanca)
 
 
 
+//dETYRA 6
+
+let min = 1;
+let max = 10;0
+let numriRastesishem = Math.floor(Math.random() * (max - min + 1)) + min;
+
+
+if(numriRastesishem > 50){
+    console.log("Numri me i madh se 50");
+}else if(numriRastesishem <50){
+    console.log("Numri me i vogel se 50");
+}else{
+    console.log("Numri i barabarte me 50")
+}
+
+
+// detyra 7
+
+
+let numri = 10;
+
+if(numri > 0){
+    console.log("Numri eshte pozitiv");
+}else{
+    console.log("Numri eshte negativ");
+}
 
 
 
