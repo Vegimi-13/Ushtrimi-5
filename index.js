@@ -102,6 +102,21 @@ if(numri > 0){
 
 
 
+let temperatura = 20;
+
+
+if(temperatura > 30){
+    console.log("Moti është shumë i nxehtë.");
+}else if(temperatura >=20  && temperatura <30){
+    console.log("Moti është i ngrohtë.");
+}else if(temperatura >10 && temperatura<=19){
+    console.log("Moti eshte i fresket");
+}else if(temperatura <=10){
+    console.log("Moti eshte i ftohte");
+}
+
+
+
 
 
 
